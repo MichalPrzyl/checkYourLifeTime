@@ -1,0 +1,18 @@
+.day{
+    width: 10px;
+    height: 10px;
+    border-bottom: 1px groove black;
+    border-right:  1px groove black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.day:hover{
+    cursor: pointer;
+}
+
+.checked{
+    background: red;
+}
